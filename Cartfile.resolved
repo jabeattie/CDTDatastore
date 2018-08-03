@@ -1,0 +1,3 @@
+github "CocoaLumberjack/CocoaLumberjack" "3.4.2"
+github "ccgus/fmdb" "2.6"
+github "google/google-toolbox-for-mac" "v2.1.1"
