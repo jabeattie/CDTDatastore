@@ -80,7 +80,7 @@
         data = [self.blob dataWithError:&error];
     } else if (self.encoding == kTDAttachmentEncodingGZIP) {
         NSData *gzippedData = [self.blob dataWithError:&error];
-        data = (gzippedData ? [NSData gtm_dataByInflatingData:gzippedData] : nil);
+        data = (gzippedData ? [NSData gtm_dataByInflatingData:gzippedData error:&error] : nil);
     } else {
         CDTLogWarn(CDTDOCUMENT_REVISION_LOG_CONTEXT,
                    @"Unknown attachment encoding %i, returning nil", self.encoding);

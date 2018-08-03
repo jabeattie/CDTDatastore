@@ -372,9 +372,9 @@
 		9873856E1C47B45600937212 /* bonsai-boston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F77E001C44044000515CC3 /* bonsai-boston.jpg */; };
 		9873856F1C47B45600937212 /* Tests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98F77E691C44044000515CC3 /* Tests-Info.plist */; };
 		987385701C47B45600937212 /* schema6to7upgrade.touchdb in Resources */ = {isa = PBXBuildFile; fileRef = 98F77E051C44044000515CC3 /* schema6to7upgrade.touchdb */; };
-		987385791C47B48F00937212 /* CDTDatastoreOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987383ED1C47B38800937212 /* CDTDatastoreOSX.framework */; };
-		9873857A1C47B49800937212 /* CDTDatastoreOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987383ED1C47B38800937212 /* CDTDatastoreOSX.framework */; };
-		987385FC1C49659200937212 /* CDTDatastore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 98F77B361C43FC9F00515CC3 /* CDTDatastore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		987385791C47B48F00937212 /* CloudantSyncOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987383ED1C47B38800937212 /* CloudantSyncOSX.framework */; };
+		9873857A1C47B49800937212 /* CloudantSyncOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987383ED1C47B38800937212 /* CloudantSyncOSX.framework */; };
+		987385FC1C49659200937212 /* CloudantSync.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 98F77B361C43FC9F00515CC3 /* CloudantSync.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		987AF7A71DE7273700577DAC /* CDTBlobEncryptedDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 987AF7A51DE7273700577DAC /* CDTBlobEncryptedDataTests.m */; };
 		987AF7A81DE7273700577DAC /* CDTBlobHandleFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 987AF7A61DE7273700577DAC /* CDTBlobHandleFactoryTests.m */; };
 		987AF7B31DE7274C00577DAC /* CDTEncryptionKeySimpleProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 987AF7A91DE7274C00577DAC /* CDTEncryptionKeySimpleProviderTests.m */; };
@@ -398,7 +398,7 @@
 		9891D10C1C511A820068FD1A /* CDTDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9891D1091C511A820068FD1A /* CDTDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98C367E91C91B51100C4059D /* CDTReplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F77E181C44044000515CC3 /* CDTReplicationTests.m */; };
 		98F77B3A1C43FC9F00515CC3 /* CDTDatastore.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F77B391C43FC9F00515CC3 /* CDTDatastore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98F77B411C43FC9F00515CC3 /* CDTDatastore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F77B361C43FC9F00515CC3 /* CDTDatastore.framework */; };
+		98F77B411C43FC9F00515CC3 /* CloudantSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F77B361C43FC9F00515CC3 /* CloudantSync.framework */; };
 		98F77C1D1C43FCEE00515CC3 /* CDTAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F77B511C43FCEE00515CC3 /* CDTAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98F77C1E1C43FCEE00515CC3 /* CDTAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F77B521C43FCEE00515CC3 /* CDTAttachment.m */; };
 		98F77C1F1C43FCEE00515CC3 /* CDTBlobData.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F77B531C43FCEE00515CC3 /* CDTBlobData.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -611,7 +611,7 @@
 		98F77D251C43FDA700515CC3 /* Target.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F77D021C43FDA700515CC3 /* Target.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		98F77D261C43FDA700515CC3 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F77D031C43FDA700515CC3 /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98F77D271C43FDA700515CC3 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F77D041C43FDA700515CC3 /* Test.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		98F77D311C44028700515CC3 /* CDTDatastore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F77B361C43FC9F00515CC3 /* CDTDatastore.framework */; };
+		98F77D311C44028700515CC3 /* CloudantSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F77B361C43FC9F00515CC3 /* CloudantSync.framework */; };
 		98F77E701C44044000515CC3 /* bonsai-boston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F77E001C44044000515CC3 /* bonsai-boston.jpg */; };
 		98F77E711C44044000515CC3 /* emptyencrypteddb.touchdb in Resources */ = {isa = PBXBuildFile; fileRef = 98F77E011C44044000515CC3 /* emptyencrypteddb.touchdb */; };
 		98F77E721C44044000515CC3 /* emptyencryptedindex.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 98F77E021C44044000515CC3 /* emptyencryptedindex.sqlite */; };
@@ -740,7 +740,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				987385FC1C49659200937212 /* CDTDatastore.framework in CopyFiles */,
+				987385FC1C49659200937212 /* CloudantSync.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -773,9 +773,9 @@
 		987382FC1C47B1DD00937212 /* CDTHelperFixedKeyProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTHelperFixedKeyProvider.m; sourceTree = "<group>"; };
 		987382FD1C47B1DD00937212 /* CDTHelperOneUseKeyProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTHelperOneUseKeyProvider.h; sourceTree = "<group>"; };
 		987382FE1C47B1DD00937212 /* CDTHelperOneUseKeyProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTHelperOneUseKeyProvider.m; sourceTree = "<group>"; };
-		987383ED1C47B38800937212 /* CDTDatastoreOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDTDatastoreOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		987385201C47B45400937212 /* CDTDatastoreReplicationAcceptanceTestsOSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDTDatastoreReplicationAcceptanceTestsOSX.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		987385761C47B45600937212 /* CDTDatastoreTestsOSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDTDatastoreTestsOSX.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		987383ED1C47B38800937212 /* CloudantSyncOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CloudantSyncOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		987385201C47B45400937212 /* CloudantSyncReplicationAcceptanceTestsOSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudantSyncReplicationAcceptanceTestsOSX.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		987385761C47B45600937212 /* CloudantSyncTestsOSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudantSyncTestsOSX.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		987AF7A51DE7273700577DAC /* CDTBlobEncryptedDataTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTBlobEncryptedDataTests.m; sourceTree = "<group>"; };
 		987AF7A61DE7273700577DAC /* CDTBlobHandleFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTBlobHandleFactoryTests.m; sourceTree = "<group>"; };
 		987AF7A91DE7274C00577DAC /* CDTEncryptionKeySimpleProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTEncryptionKeySimpleProviderTests.m; sourceTree = "<group>"; };
@@ -789,7 +789,7 @@
 		987AF7B11DE7274C00577DAC /* TD_DatabaseEncryptionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TD_DatabaseEncryptionTests.m; sourceTree = "<group>"; };
 		987AF7B21DE7274C00577DAC /* TDBlobStoreEncryptionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDBlobStoreEncryptionTests.m; sourceTree = "<group>"; };
 		987AF7BB1DE7275800577DAC /* emptynonencryptedindex.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = emptynonencryptedindex.sqlite; sourceTree = "<group>"; };
-		988D2E5E1DA6B13900E05262 /* CDTDatastoreTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDTDatastoreTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		988D2E5E1DA6B13900E05262 /* CloudantSyncTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudantSyncTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		988D2E611DA6B13900E05262 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		988D2E631DA6B13900E05262 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		988D2E641DA6B13900E05262 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -799,17 +799,17 @@
 		988D2E6C1DA6B13900E05262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		988D2E6F1DA6B13900E05262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		988D2E711DA6B13900E05262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		988D2E761DA6B13900E05262 /* CDTDatastoreTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDTDatastoreTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		988D2E761DA6B13900E05262 /* CloudantSyncTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudantSyncTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		988D2E7A1DA6B13900E05262 /* CDTDatastoreTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDTDatastoreTestAppTests.m; sourceTree = "<group>"; };
 		988D2E7C1DA6B13900E05262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		988D2E811DA6B13900E05262 /* CDTDatastoreTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDTDatastoreTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		988D2E811DA6B13900E05262 /* CloudantSyncTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudantSyncTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		988D2E851DA6B13900E05262 /* CDTDatastoreTestAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDTDatastoreTestAppUITests.m; sourceTree = "<group>"; };
 		988D2E871DA6B13900E05262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9891D1091C511A820068FD1A /* CDTDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTDefines.h; sourceTree = "<group>"; };
-		98F77B361C43FC9F00515CC3 /* CDTDatastore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDTDatastore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F77B361C43FC9F00515CC3 /* CloudantSync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CloudantSync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F77B391C43FC9F00515CC3 /* CDTDatastore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDTDatastore.h; sourceTree = "<group>"; };
 		98F77B3B1C43FC9F00515CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98F77B401C43FC9F00515CC3 /* CDTDatastoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDTDatastoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F77B401C43FC9F00515CC3 /* CloudantSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudantSyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F77B451C43FC9F00515CC3 /* CDTDatastoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDTDatastoreTests.m; sourceTree = "<group>"; };
 		98F77B471C43FC9F00515CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98F77B511C43FCEE00515CC3 /* CDTAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTAttachment.h; sourceTree = "<group>"; };
@@ -1028,7 +1028,7 @@
 		98F77D021C43FDA700515CC3 /* Target.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target.m; sourceTree = "<group>"; };
 		98F77D031C43FDA700515CC3 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		98F77D041C43FDA700515CC3 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
-		98F77D2C1C44028700515CC3 /* CDTDatastoreReplicationAcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDTDatastoreReplicationAcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F77D2C1C44028700515CC3 /* CloudantSyncReplicationAcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudantSyncReplicationAcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F77D301C44028700515CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98F77E001C44044000515CC3 /* bonsai-boston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bonsai-boston.jpg"; sourceTree = "<group>"; };
 		98F77E011C44044000515CC3 /* emptyencrypteddb.touchdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = emptyencrypteddb.touchdb; sourceTree = "<group>"; };
@@ -1155,7 +1155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				987385791C47B48F00937212 /* CDTDatastoreOSX.framework in Frameworks */,
+				987385791C47B48F00937212 /* CloudantSyncOSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1163,7 +1163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9873857A1C47B49800937212 /* CDTDatastoreOSX.framework in Frameworks */,
+				9873857A1C47B49800937212 /* CloudantSyncOSX.framework in Frameworks */,
 				987385651C47B45600937212 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1205,7 +1205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98F77F0D1C451CEB00515CC3 /* libsqlite3.tbd in Frameworks */,
-				98F77B411C43FC9F00515CC3 /* CDTDatastore.framework in Frameworks */,
+				98F77B411C43FC9F00515CC3 /* CloudantSync.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1213,7 +1213,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98F77D311C44028700515CC3 /* CDTDatastore.framework in Frameworks */,
+				98F77D311C44028700515CC3 /* CloudantSync.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1287,7 +1287,7 @@
 		98F77B2C1C43FC9F00515CC3 = {
 			isa = PBXGroup;
 			children = (
-				98F77B381C43FC9F00515CC3 /* CDTDatastore */,
+				98F77B381C43FC9F00515CC3 /* CloudantSync */,
 				98F77B441C43FC9F00515CC3 /* CDTDatastoreTests */,
 				98F77D2D1C44028700515CC3 /* CDTDatastoreReplicationAcceptanceTests */,
 				988D2E5F1DA6B13900E05262 /* CDTDatastoreTestApp */,
@@ -1301,20 +1301,20 @@
 		98F77B371C43FC9F00515CC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				98F77B361C43FC9F00515CC3 /* CDTDatastore.framework */,
-				98F77B401C43FC9F00515CC3 /* CDTDatastoreTests.xctest */,
-				98F77D2C1C44028700515CC3 /* CDTDatastoreReplicationAcceptanceTests.xctest */,
-				987383ED1C47B38800937212 /* CDTDatastoreOSX.framework */,
-				987385201C47B45400937212 /* CDTDatastoreReplicationAcceptanceTestsOSX.xctest */,
-				987385761C47B45600937212 /* CDTDatastoreTestsOSX.xctest */,
-				988D2E5E1DA6B13900E05262 /* CDTDatastoreTestApp.app */,
-				988D2E761DA6B13900E05262 /* CDTDatastoreTestAppTests.xctest */,
-				988D2E811DA6B13900E05262 /* CDTDatastoreTestAppUITests.xctest */,
+				98F77B361C43FC9F00515CC3 /* CloudantSync.framework */,
+				98F77B401C43FC9F00515CC3 /* CloudantSyncTests.xctest */,
+				98F77D2C1C44028700515CC3 /* CloudantSyncReplicationAcceptanceTests.xctest */,
+				987383ED1C47B38800937212 /* CloudantSyncOSX.framework */,
+				987385201C47B45400937212 /* CloudantSyncReplicationAcceptanceTestsOSX.xctest */,
+				987385761C47B45600937212 /* CloudantSyncTestsOSX.xctest */,
+				988D2E5E1DA6B13900E05262 /* CloudantSyncTestApp.app */,
+				988D2E761DA6B13900E05262 /* CloudantSyncTestAppTests.xctest */,
+				988D2E811DA6B13900E05262 /* CloudantSyncTestAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		98F77B381C43FC9F00515CC3 /* CDTDatastore */ = {
+		98F77B381C43FC9F00515CC3 /* CloudantSync */ = {
 			isa = PBXGroup;
 			children = (
 				98F77CDF1C43FDA700515CC3 /* vendor */,
@@ -1351,7 +1351,7 @@
 				98F77B3B1C43FC9F00515CC3 /* Info.plist */,
 				9891D1091C511A820068FD1A /* CDTDefines.h */,
 			);
-			path = CDTDatastore;
+			path = CloudantSync;
 			sourceTree = "<group>";
 		};
 		98F77B441C43FC9F00515CC3 /* CDTDatastoreTests */ = {
@@ -2154,9 +2154,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		987383011C47B38800937212 /* CDTDatastoreOSX */ = {
+		987383011C47B38800937212 /* CloudantSyncOSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 987383EA1C47B38800937212 /* Build configuration list for PBXNativeTarget "CDTDatastoreOSX" */;
+			buildConfigurationList = 987383EA1C47B38800937212 /* Build configuration list for PBXNativeTarget "CloudantSyncOSX" */;
 			buildPhases = (
 				754C5939D1D74685677B9518 /* [CP] Check Pods Manifest.lock */,
 				987383031C47B38800937212 /* Sources */,
@@ -2168,14 +2168,14 @@
 			);
 			dependencies = (
 			);
-			name = CDTDatastoreOSX;
+			name = CloudantSyncOSX;
 			productName = CDTDatastore;
-			productReference = 987383ED1C47B38800937212 /* CDTDatastoreOSX.framework */;
+			productReference = 987383ED1C47B38800937212 /* CloudantSyncOSX.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		987385021C47B45300937212 /* CDTDatastoreReplicationAcceptanceTestsOSX */ = {
+		987385021C47B45300937212 /* CloudantSyncReplicationAcceptanceTestsOSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9873851D1C47B45300937212 /* Build configuration list for PBXNativeTarget "CDTDatastoreReplicationAcceptanceTestsOSX" */;
+			buildConfigurationList = 9873851D1C47B45300937212 /* Build configuration list for PBXNativeTarget "CloudantSyncReplicationAcceptanceTestsOSX" */;
 			buildPhases = (
 				05C7FB7C68AD518220643360 /* [CP] Check Pods Manifest.lock */,
 				987385061C47B45300937212 /* Sources */,
@@ -2188,14 +2188,14 @@
 			);
 			dependencies = (
 			);
-			name = CDTDatastoreReplicationAcceptanceTestsOSX;
+			name = CloudantSyncReplicationAcceptanceTestsOSX;
 			productName = CDTDatastoreReplicationAcceptanceTests;
-			productReference = 987385201C47B45400937212 /* CDTDatastoreReplicationAcceptanceTestsOSX.xctest */;
+			productReference = 987385201C47B45400937212 /* CloudantSyncReplicationAcceptanceTestsOSX.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		987385221C47B45600937212 /* CDTDatastoreTestsOSX */ = {
+		987385221C47B45600937212 /* CloudantSyncTestsOSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 987385731C47B45600937212 /* Build configuration list for PBXNativeTarget "CDTDatastoreTestsOSX" */;
+			buildConfigurationList = 987385731C47B45600937212 /* Build configuration list for PBXNativeTarget "CloudantSyncTestsOSX" */;
 			buildPhases = (
 				8FC98010A5F17C9CB6C14A62 /* [CP] Check Pods Manifest.lock */,
 				987385261C47B45600937212 /* Sources */,
@@ -2207,14 +2207,14 @@
 			);
 			dependencies = (
 			);
-			name = CDTDatastoreTestsOSX;
+			name = CloudantSyncTestsOSX;
 			productName = CDTDatastoreTests;
-			productReference = 987385761C47B45600937212 /* CDTDatastoreTestsOSX.xctest */;
+			productReference = 987385761C47B45600937212 /* CloudantSyncTestsOSX.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		988D2E5D1DA6B13900E05262 /* CDTDatastoreTestApp */ = {
+		988D2E5D1DA6B13900E05262 /* CloudantSyncTestApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 988D2E8E1DA6B13900E05262 /* Build configuration list for PBXNativeTarget "CDTDatastoreTestApp" */;
+			buildConfigurationList = 988D2E8E1DA6B13900E05262 /* Build configuration list for PBXNativeTarget "CloudantSyncTestApp" */;
 			buildPhases = (
 				988D2E5A1DA6B13900E05262 /* Sources */,
 				988D2E5B1DA6B13900E05262 /* Frameworks */,
@@ -2224,14 +2224,14 @@
 			);
 			dependencies = (
 			);
-			name = CDTDatastoreTestApp;
+			name = CloudantSyncTestApp;
 			productName = CDTDatastoreTestApp;
-			productReference = 988D2E5E1DA6B13900E05262 /* CDTDatastoreTestApp.app */;
+			productReference = 988D2E5E1DA6B13900E05262 /* CloudantSyncTestApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		988D2E751DA6B13900E05262 /* CDTDatastoreTestAppTests */ = {
+		988D2E751DA6B13900E05262 /* CloudantSyncTestAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 988D2E8F1DA6B13900E05262 /* Build configuration list for PBXNativeTarget "CDTDatastoreTestAppTests" */;
+			buildConfigurationList = 988D2E8F1DA6B13900E05262 /* Build configuration list for PBXNativeTarget "CloudantSyncTestAppTests" */;
 			buildPhases = (
 				988D2E721DA6B13900E05262 /* Sources */,
 				988D2E731DA6B13900E05262 /* Frameworks */,
@@ -2242,14 +2242,14 @@
 			dependencies = (
 				988D2E781DA6B13900E05262 /* PBXTargetDependency */,
 			);
-			name = CDTDatastoreTestAppTests;
+			name = CloudantSyncTestAppTests;
 			productName = CDTDatastoreTestAppTests;
-			productReference = 988D2E761DA6B13900E05262 /* CDTDatastoreTestAppTests.xctest */;
+			productReference = 988D2E761DA6B13900E05262 /* CloudantSyncTestAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		988D2E801DA6B13900E05262 /* CDTDatastoreTestAppUITests */ = {
+		988D2E801DA6B13900E05262 /* CloudantSyncTestAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 988D2E901DA6B13900E05262 /* Build configuration list for PBXNativeTarget "CDTDatastoreTestAppUITests" */;
+			buildConfigurationList = 988D2E901DA6B13900E05262 /* Build configuration list for PBXNativeTarget "CloudantSyncTestAppUITests" */;
 			buildPhases = (
 				988D2E7D1DA6B13900E05262 /* Sources */,
 				988D2E7E1DA6B13900E05262 /* Frameworks */,
@@ -2260,14 +2260,14 @@
 			dependencies = (
 				988D2E831DA6B13900E05262 /* PBXTargetDependency */,
 			);
-			name = CDTDatastoreTestAppUITests;
+			name = CloudantSyncTestAppUITests;
 			productName = CDTDatastoreTestAppUITests;
-			productReference = 988D2E811DA6B13900E05262 /* CDTDatastoreTestAppUITests.xctest */;
+			productReference = 988D2E811DA6B13900E05262 /* CloudantSyncTestAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		98F77B351C43FC9F00515CC3 /* CDTDatastore */ = {
+		98F77B351C43FC9F00515CC3 /* CloudantSync */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98F77B4A1C43FC9F00515CC3 /* Build configuration list for PBXNativeTarget "CDTDatastore" */;
+			buildConfigurationList = 98F77B4A1C43FC9F00515CC3 /* Build configuration list for PBXNativeTarget "CloudantSync" */;
 			buildPhases = (
 				98F77B311C43FC9F00515CC3 /* Sources */,
 				98F77B321C43FC9F00515CC3 /* Frameworks */,
@@ -2278,14 +2278,14 @@
 			);
 			dependencies = (
 			);
-			name = CDTDatastore;
+			name = CloudantSync;
 			productName = CDTDatastore;
-			productReference = 98F77B361C43FC9F00515CC3 /* CDTDatastore.framework */;
+			productReference = 98F77B361C43FC9F00515CC3 /* CloudantSync.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		98F77B3F1C43FC9F00515CC3 /* CDTDatastoreTests */ = {
+		98F77B3F1C43FC9F00515CC3 /* CloudantSyncTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98F77B4D1C43FC9F00515CC3 /* Build configuration list for PBXNativeTarget "CDTDatastoreTests" */;
+			buildConfigurationList = 98F77B4D1C43FC9F00515CC3 /* Build configuration list for PBXNativeTarget "CloudantSyncTests" */;
 			buildPhases = (
 				02129324BAD5C117EF140C10 /* [CP] Check Pods Manifest.lock */,
 				98F77B3C1C43FC9F00515CC3 /* Sources */,
@@ -2300,14 +2300,14 @@
 			dependencies = (
 				98F77B431C43FC9F00515CC3 /* PBXTargetDependency */,
 			);
-			name = CDTDatastoreTests;
+			name = CloudantSyncTests;
 			productName = CDTDatastoreTests;
-			productReference = 98F77B401C43FC9F00515CC3 /* CDTDatastoreTests.xctest */;
+			productReference = 98F77B401C43FC9F00515CC3 /* CloudantSyncTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		98F77D2B1C44028700515CC3 /* CDTDatastoreReplicationAcceptanceTests */ = {
+		98F77D2B1C44028700515CC3 /* CloudantSyncReplicationAcceptanceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98F77D361C44028700515CC3 /* Build configuration list for PBXNativeTarget "CDTDatastoreReplicationAcceptanceTests" */;
+			buildConfigurationList = 98F77D361C44028700515CC3 /* Build configuration list for PBXNativeTarget "CloudantSyncReplicationAcceptanceTests" */;
 			buildPhases = (
 				DE64C5C18FA0A3DCA885795D /* [CP] Check Pods Manifest.lock */,
 				98F77D281C44028700515CC3 /* Sources */,
@@ -2322,9 +2322,9 @@
 				98F77D331C44028700515CC3 /* PBXTargetDependency */,
 				988D2E921DA6B14300E05262 /* PBXTargetDependency */,
 			);
-			name = CDTDatastoreReplicationAcceptanceTests;
+			name = CloudantSyncReplicationAcceptanceTests;
 			productName = CDTDatastoreReplicationAcceptanceTests;
-			productReference = 98F77D2C1C44028700515CC3 /* CDTDatastoreReplicationAcceptanceTests.xctest */;
+			productReference = 98F77D2C1C44028700515CC3 /* CloudantSyncReplicationAcceptanceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -2366,7 +2366,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 98F77B301C43FC9F00515CC3 /* Build configuration list for PBXProject "CDTDatastore" */;
+			buildConfigurationList = 98F77B301C43FC9F00515CC3 /* Build configuration list for PBXProject "CloudantSync" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -2379,15 +2379,15 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				98F77B351C43FC9F00515CC3 /* CDTDatastore */,
-				98F77B3F1C43FC9F00515CC3 /* CDTDatastoreTests */,
-				98F77D2B1C44028700515CC3 /* CDTDatastoreReplicationAcceptanceTests */,
-				987383011C47B38800937212 /* CDTDatastoreOSX */,
-				987385021C47B45300937212 /* CDTDatastoreReplicationAcceptanceTestsOSX */,
-				987385221C47B45600937212 /* CDTDatastoreTestsOSX */,
-				988D2E5D1DA6B13900E05262 /* CDTDatastoreTestApp */,
-				988D2E751DA6B13900E05262 /* CDTDatastoreTestAppTests */,
-				988D2E801DA6B13900E05262 /* CDTDatastoreTestAppUITests */,
+				98F77B351C43FC9F00515CC3 /* CloudantSync */,
+				98F77B3F1C43FC9F00515CC3 /* CloudantSyncTests */,
+				98F77D2B1C44028700515CC3 /* CloudantSyncReplicationAcceptanceTests */,
+				987383011C47B38800937212 /* CloudantSyncOSX */,
+				987385021C47B45300937212 /* CloudantSyncReplicationAcceptanceTestsOSX */,
+				987385221C47B45600937212 /* CloudantSyncTestsOSX */,
+				988D2E5D1DA6B13900E05262 /* CloudantSyncTestApp */,
+				988D2E751DA6B13900E05262 /* CloudantSyncTestAppTests */,
+				988D2E801DA6B13900E05262 /* CloudantSyncTestAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -3181,27 +3181,27 @@
 /* Begin PBXTargetDependency section */
 		988D2E781DA6B13900E05262 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 988D2E5D1DA6B13900E05262 /* CDTDatastoreTestApp */;
+			target = 988D2E5D1DA6B13900E05262 /* CloudantSyncTestApp */;
 			targetProxy = 988D2E771DA6B13900E05262 /* PBXContainerItemProxy */;
 		};
 		988D2E831DA6B13900E05262 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 988D2E5D1DA6B13900E05262 /* CDTDatastoreTestApp */;
+			target = 988D2E5D1DA6B13900E05262 /* CloudantSyncTestApp */;
 			targetProxy = 988D2E821DA6B13900E05262 /* PBXContainerItemProxy */;
 		};
 		988D2E921DA6B14300E05262 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 988D2E5D1DA6B13900E05262 /* CDTDatastoreTestApp */;
+			target = 988D2E5D1DA6B13900E05262 /* CloudantSyncTestApp */;
 			targetProxy = 988D2E911DA6B14300E05262 /* PBXContainerItemProxy */;
 		};
 		98F77B431C43FC9F00515CC3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 98F77B351C43FC9F00515CC3 /* CDTDatastore */;
+			target = 98F77B351C43FC9F00515CC3 /* CloudantSync */;
 			targetProxy = 98F77B421C43FC9F00515CC3 /* PBXContainerItemProxy */;
 		};
 		98F77D331C44028700515CC3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 98F77B351C43FC9F00515CC3 /* CDTDatastore */;
+			target = 98F77B351C43FC9F00515CC3 /* CloudantSync */;
 			targetProxy = 98F77D321C44028700515CC3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -3383,7 +3383,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloudant.CDTDatastoreTestAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDTDatastoreTestApp.app/CDTDatastoreTestApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudantSyncTestApp.app/CloudantSyncTestApp";
 			};
 			name = Debug;
 		};
@@ -3399,7 +3399,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloudant.CDTDatastoreTestAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDTDatastoreTestApp.app/CDTDatastoreTestApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudantSyncTestApp.app/CloudantSyncTestApp";
 			};
 			name = Release;
 		};
@@ -3538,10 +3538,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = CDTDatastore/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CloudantSync/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cloudant.CDTDatastore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudant.CloudandSync;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -3560,10 +3560,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = CDTDatastore/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CloudantSync/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cloudant.CDTDatastore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudant.CloudandSync;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -3604,7 +3604,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloudant.CDTDatastoreReplicationAcceptanceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDTDatastoreTestApp.app/CDTDatastoreTestApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudantSyncTestApp.app/CloudantSyncTestApp";
 			};
 			name = Debug;
 		};
@@ -3616,14 +3616,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloudant.CDTDatastoreReplicationAcceptanceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDTDatastoreTestApp.app/CDTDatastoreTestApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudantSyncTestApp.app/CloudantSyncTestApp";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		987383EA1C47B38800937212 /* Build configuration list for PBXNativeTarget "CDTDatastoreOSX" */ = {
+		987383EA1C47B38800937212 /* Build configuration list for PBXNativeTarget "CloudantSyncOSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				987383EB1C47B38800937212 /* Debug */,
@@ -3632,7 +3632,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9873851D1C47B45300937212 /* Build configuration list for PBXNativeTarget "CDTDatastoreReplicationAcceptanceTestsOSX" */ = {
+		9873851D1C47B45300937212 /* Build configuration list for PBXNativeTarget "CloudantSyncReplicationAcceptanceTestsOSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9873851E1C47B45300937212 /* Debug */,
@@ -3641,7 +3641,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		987385731C47B45600937212 /* Build configuration list for PBXNativeTarget "CDTDatastoreTestsOSX" */ = {
+		987385731C47B45600937212 /* Build configuration list for PBXNativeTarget "CloudantSyncTestsOSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				987385741C47B45600937212 /* Debug */,
@@ -3650,7 +3650,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		988D2E8E1DA6B13900E05262 /* Build configuration list for PBXNativeTarget "CDTDatastoreTestApp" */ = {
+		988D2E8E1DA6B13900E05262 /* Build configuration list for PBXNativeTarget "CloudantSyncTestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				988D2E881DA6B13900E05262 /* Debug */,
@@ -3659,7 +3659,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		988D2E8F1DA6B13900E05262 /* Build configuration list for PBXNativeTarget "CDTDatastoreTestAppTests" */ = {
+		988D2E8F1DA6B13900E05262 /* Build configuration list for PBXNativeTarget "CloudantSyncTestAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				988D2E8A1DA6B13900E05262 /* Debug */,
@@ -3668,7 +3668,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		988D2E901DA6B13900E05262 /* Build configuration list for PBXNativeTarget "CDTDatastoreTestAppUITests" */ = {
+		988D2E901DA6B13900E05262 /* Build configuration list for PBXNativeTarget "CloudantSyncTestAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				988D2E8C1DA6B13900E05262 /* Debug */,
@@ -3677,7 +3677,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98F77B301C43FC9F00515CC3 /* Build configuration list for PBXProject "CDTDatastore" */ = {
+		98F77B301C43FC9F00515CC3 /* Build configuration list for PBXProject "CloudantSync" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				98F77B481C43FC9F00515CC3 /* Debug */,
@@ -3686,7 +3686,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98F77B4A1C43FC9F00515CC3 /* Build configuration list for PBXNativeTarget "CDTDatastore" */ = {
+		98F77B4A1C43FC9F00515CC3 /* Build configuration list for PBXNativeTarget "CloudantSync" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				98F77B4B1C43FC9F00515CC3 /* Debug */,
@@ -3695,7 +3695,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98F77B4D1C43FC9F00515CC3 /* Build configuration list for PBXNativeTarget "CDTDatastoreTests" */ = {
+		98F77B4D1C43FC9F00515CC3 /* Build configuration list for PBXNativeTarget "CloudantSyncTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				98F77B4E1C43FC9F00515CC3 /* Debug */,
@@ -3704,7 +3704,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98F77D361C44028700515CC3 /* Build configuration list for PBXNativeTarget "CDTDatastoreReplicationAcceptanceTests" */ = {
+		98F77D361C44028700515CC3 /* Build configuration list for PBXNativeTarget "CloudantSyncReplicationAcceptanceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				98F77D341C44028700515CC3 /* Debug */,

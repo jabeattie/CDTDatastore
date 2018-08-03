@@ -17,9 +17,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "987385221C47B45600937212"
-               BuildableName = "CDTDatastoreTestsOSX.xctest"
-               BlueprintName = "CDTDatastoreTestsOSX"
-               ReferencedContainer = "container:CDTDatastore.xcodeproj">
+               BuildableName = "CloudantSyncTestsOSX.xctest"
+               BlueprintName = "CloudantSyncTestsOSX"
+               ReferencedContainer = "container:CloudantSync.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>

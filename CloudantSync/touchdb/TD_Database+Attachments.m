@@ -287,11 +287,12 @@
  */
 - (NSData*)decodeAttachment:(NSData*)attachment encoding:(TDAttachmentEncoding)encoding
 {
+    NSError *error = nil;
     switch (encoding) {
         case kTDAttachmentEncodingNone:
             break;
         case kTDAttachmentEncodingGZIP:
-            attachment = [NSData gtm_dataByInflatingData:attachment];
+            attachment = [NSData gtm_dataByInflatingData:attachment error:&error];
     }
     if (!attachment) CDTLogWarn(CDTDATASTORE_LOG_CONTEXT, @"Unable to decode attachment!");
     return attachment;

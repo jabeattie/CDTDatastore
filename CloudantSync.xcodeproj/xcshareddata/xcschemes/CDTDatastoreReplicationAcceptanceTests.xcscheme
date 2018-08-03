@@ -16,10 +16,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "98F77B3F1C43FC9F00515CC3"
-               BuildableName = "CDTDatastoreTests.xctest"
-               BlueprintName = "CDTDatastoreTests"
-               ReferencedContainer = "container:CDTDatastore.xcodeproj">
+               BlueprintIdentifier = "98F77D2B1C44028700515CC3"
+               BuildableName = "CloudantSyncReplicationAcceptanceTests.xctest"
+               BlueprintName = "CloudantSyncReplicationAcceptanceTests"
+               ReferencedContainer = "container:CloudantSync.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>

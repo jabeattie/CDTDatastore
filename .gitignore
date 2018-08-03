@@ -21,3 +21,6 @@ build
 #CocoaPods
 Pods
 Podfile.lock
+
+#Carthage
+Carthage
